@@ -39,7 +39,7 @@ biaya_bfrent = int(os.environ.get("BIAYA_BFRENT", "30"))
 hastag = os.environ.get("HASTAG", "#pap | #mas | #mba | #spill | #tanya | #story").replace(" ", "|").lower()
 # =========================================================== #
 
-pesan_join = os.environ.get("PESAN_JOIN", "Kamu harus bergabung di Channel & Group terlebih dahulu untuk mengirim pesan ke channel @Jawafes. \n\nSilakan Join Ke Channel & Group dulu ⤵️")
+pesan_join = os.environ.get("PESAN_JOIN", "Kamu harus bergabung di Channel & Group terlebih dahulu untuk mengirim pesan ke channel @JAWAFES. \n\nSilakan Join Ke Channel & Group dulu ⤵️")
 start_msg = os.environ.get("START_MSG", """
 ❏ Haii {mention}
 
