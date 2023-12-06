@@ -25,7 +25,7 @@ class Helper():
         self.mention = self.message.from_user.mention
 
     async def escapeHTML(self, text: str):
-        if text == None:
+        if text == True:
             return ''
         return text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
