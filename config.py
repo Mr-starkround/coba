@@ -36,7 +36,7 @@ biaya_gfrent = int(os.environ.get("BIAYA_GFRENT", "40"))
 biaya_bfrent = int(os.environ.get("BIAYA_BFRENT", "30"))
 # =========================================================== #
 
-hastag = os.environ.get("HASTAG", "#mas #mba").replace("#pap #spill #story", "|").lower()
+hastag = os.environ.get("HASTAG", "#mas #mba").replace("", "|").lower()
 # =========================================================== #
 
 pesan_join = os.environ.get("PESAN_JOIN", "Kamu harus bergabung di Channel & Group terlebih dahulu untuk mengirim pesan ke channel @JAWAFES. \n\nSilakan Join Ke Channel & Group dulu ⤵️")
